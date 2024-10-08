@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export function Stats({ items }) {
+export default function Stats({ items }) {
   if (!items.length)
     return (
       <p className="stats">
